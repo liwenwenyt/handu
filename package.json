@@ -1,0 +1,23 @@
+{
+  "name": "handu",
+  "version": "1.0.0",
+  "description": "第一个个人项目：韩都衣舍",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liwenwenyt/handu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liwenwenyt/handu/issues"
+  },
+  "homepage": "https://github.com/liwenwenyt/handu#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
