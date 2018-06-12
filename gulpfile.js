@@ -16,7 +16,7 @@ gulp.task("copyhtml",function(){
 });
 //复制图片文件
 gulp.task("images",function(){
-	gulp.src("imgs/*.{jpg,png}")
+	gulp.src("imgs/*.{jpg,png,gif}")
 	.pipe(gulp.dest("D:\\phpStudy\\WWW\\handu\\imgs"));
 });
 //复制js

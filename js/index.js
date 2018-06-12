@@ -118,15 +118,42 @@ $(function(){
 
 })
 //选项卡
-$(function(){
-	$(".sel_li").each(function(i){
-       $(this).mouseenter(){
-       	 //$(this).css({})
-       	 $(".right")[i].show(1000);
-       }
-       $(this).mouseleave(){
-         $(".right")[i].hide();
-       }
 
-   })
-})	
+	/*$(".sel_li").each(function(i){
+       $(this).mouseenter(function()
+         {
+       	 //$(this).css({})
+       	 $(".right").each(function(i){
+       	 	$(this).show();
+         })
+      /* $(this).mouseleave(function(){
+       	 $(".right")[i].hide();
+       })
+
+   })*/
+   /*let arr=$(".sel_li");
+   let right=$(".right");
+   for(let i=0;i<arr.length;i++){
+   	 for(let j=0;j<right.length;j++){
+   	 	arr[i].onmouseenter(function(){
+            right[i].css({"display":"block"})
+   	   })
+   	 }
+   	 
+   }*/
+   $(function() {
+	$('.select').on('mouseenter', function() {
+		$(".sel_right").removeClass('hide');
+	}).on('mouseleave', function(){
+		$(".sel_right").addClass('hide');
+		$(".sub").addClass('hide');
+	}).on('mouseenter', 'li', function(e) {
+		var li_data = $(this).attr('data-id');
+		$(".sub").addClass('hide');
+		$('.sub[data-id="' + li_data + '"]').removeClass('hide');
+	})
+})
+
+
+//底部友情链接移动
+

@@ -1,0 +1,160 @@
+@charset"utf-8";
+$basefontsize:12px;
+.but_left{
+	position: relative;
+	/* overflow: hidden; */
+}
+.select{
+	position: absolute;
+	left: 0;
+	top: 38px;
+	display: none;
+}
+.sel_left{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:190px;
+	height:450px;
+	background:#e3e3e3;
+	z-index:100;
+}
+.sel_left ul li{
+	width:175px;
+    height:48px;
+    padding:10px 0 7px 15px;
+    border-bottom:1px solid #cccccc;
+}
+.sel_left ul li:last-child{
+	border-bottom:none;
+}
+.li_top{
+	width: 175px;
+	height: 24px;
+	display: flex;
+	justify-content: space-between;
+}
+.left_li{
+	font-size:$basefontsize+2;
+	font-weight:600;
+	color:#333333;
+	line-height:24px;
+	
+}
+.left_li img{
+	display:inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.sel_left ul li p{
+	width: 175px;
+	height: 24px;
+	a{
+		float:left;
+		font-size:$basefontsize;
+		color:#555555;
+		line-height:24px;
+		margin-right:6px;
+	}
+}
+
+/* .sel_left ul li p img{
+     float:left;
+     vertical-align: middle;
+     margin-right:5px;
+}
+.sel_left ul li p span{
+	font-size:$basefontsize+2;
+	font-weight:600;
+	color:#333333;
+	line-height:24px;
+}
+.sel_left ul li .jt{
+	float:right;
+}
+.sel_left ul li p a{
+	float:left;
+	font-size:$basefontsize;
+	color:#555555;
+	line-height:24px;
+	margin-right:6px;
+}
+.sel_left img{
+	width:18px;
+	height:18px;
+}
+.sel_left ul .pa{
+	color:#ff0000;
+}
+.sel_left ul li a:hover{
+	color:#ff0000;
+
+}
+.sel_left ul li:hover{
+	background: #333333;
+	color: white;
+} */
+.hide{
+	display: none;
+}
+
+ .sel_right{
+	position:absolute;
+	left:224px;
+	top:0px;
+	height:450px;
+   overflow: hidden;
+	background:rgba(250,250,250,0.8);
+	z-index:100;
+	
+	}
+.sub{
+	position: absolute;
+	background:rgba(250,250,250,0.9);
+	padding: 0 10px;
+}
+.sub dl{
+	width: 400px;
+	height: 48px;
+	border-bottom: 1px dashed #dcdbda;
+	padding: 7px 0px;
+	dt{
+	font-size: $basefontsize+2;
+	color: #383534;
+	}
+}
+.sub dl dd{
+	font-size: $basefontsize;
+		color: #a4a2a2;
+		margin-top: 8px;
+		a{
+			padding: 0 5px;
+			border-right: 1px solid #dfd9d5;
+		}
+}
+/* section */
+section{
+	width: 100%;
+	height: 516px;
+	margin-top: 40px;
+	.sec_cont{
+		width: 1200px;
+		height: 516px;
+		margin:0 auto;
+		
+	}
+}
+.left{
+			width: 490px;
+			height: 480px;
+			padding-top: 20px;
+		}
+.left_cont{
+				width: 330px;
+				height: 360px;
+				margin:0 80px 140px;
+				.left_cont_top span{
+					font-size: $basefontsize;
+					color: black;
+				}
+			}
