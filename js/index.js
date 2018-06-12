@@ -118,5 +118,15 @@ $(function(){
 
 })
 //选项卡
+$(function(){
+	$(".sel_li").each(function(i){
+       $(this).mouseenter(){
+       	 //$(this).css({})
+       	 $(".right")[i].show(1000);
+       }
+       $(this).mouseleave(){
+         $(".right")[i].hide();
+       }
 
-	
+   })
+})	

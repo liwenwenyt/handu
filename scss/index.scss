@@ -731,3 +731,157 @@ header a:hover{
 	color:#b8b8b8;
 	text-decoration:line-through;
 }
+/* section_sex */
+.section_sex {
+  width: 100%;
+ /* height:720px;*/
+   }
+
+.sec6_cont {
+  width: 1200px;
+  /*height: 720px;*/
+  margin: 0 auto; }
+.sec6_cont1{
+	width:100%;
+	height:20px;
+	margin-bottom:10px;
+}
+.sec6_cont1 span{
+	float:left;
+	line-height:20px;
+	text-align:center;
+}
+.sec6_cont1 span:nth-child(1){
+	font-size:$basefontsize+4;
+	color:#ac7562;
+	margin-right:20px;
+
+}
+.sec6_cont1 span:nth-child(2){
+	font-size:$basefontsize+4;
+	color:#595959;
+}
+.sec6_cont1 p{
+	float:right;
+	a{
+		font-size:$basefontsize;
+		color:#565656;
+		line-height:20px;
+		text-align:center;
+		padding:0 13px;
+	}
+}
+.sec6_cont1 p a:first-child{
+	color:#e53333;
+}
+.sec6_cont1 p a:hover{
+	color:#e53333;
+}
+.sec6_cont2{
+	width:100%;
+	height:422px;
+	display:flex;
+	justify-content:space-between;
+
+}
+.sec6_cont2_left{
+	width:190px;
+	height:422px;
+}
+.sec6_cont2_left p{
+	margin-top:12px;
+
+}
+.sec6_cont2_left p a{
+	font-size:$basefontsize;
+	color:#b7e5fa;
+	line-height:28px;
+	text-align:center;
+	padding:0 9px;
+}
+.sec6_cont3 {
+	width:1200px;
+	height:264px;
+	margin-top:10px;
+	/* display:flex;
+	justify-content:space-between; */
+	/* flex-direction:row; */
+	
+}
+.sec6_cont3 ul {
+	display:flex;
+	justify-content:space-between;
+}
+
+.sec6_cont3 ul li a img{
+	width:223px;
+	height:230px;
+	margin-bottom:16px;
+}
+.sec6_cont3 p span{
+	font-size:$basefontsize;
+	color:#b8b8b8;
+	text-decoration:line-through;
+}
+.section_bg{
+	width:100%;
+	.bg_cont{
+		width:1200px;
+		height:190px;
+		margin:0 auto;
+		img{
+			margin-top:50px;
+		}
+
+	}
+}
+/*footer*/
+footer{
+	width:100%;
+     .foot_cont{
+     	width:1200px;
+     	height:320px;
+        margin:0 auto;
+        .foot_top{
+        	width:100%;
+        	height:128px;
+        	background:#fafafa;
+        	padding-top:20px;
+        	display:flex;
+        	justify-content:space-around;
+        	ul{
+        	    
+        	    p{
+        	    	font-size:$basefontsize+2;
+        	    	color:black;
+        	    	margin-bottom:10px;
+        	    }
+        	}
+        	
+        }
+     }
+
+}
+.foot_top ul li a{
+	font-size:$basefontsize;
+	color:#565656;
+	line-height:20px;
+}
+.foot_2{
+	width:1200px;
+	height:30px;
+	background:#393939;
+	p{
+		
+		margin:11px auto 6px;
+		text-align:center;
+		a{
+		font-size:$basefontsize;
+		color:white;
+		padding:0 18px;
+		border-right:1px solid white;
+
+	}
+	}
+	
+}
