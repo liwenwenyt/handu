@@ -82,6 +82,10 @@ header a:hover{
 	float:left;
 	color:#565656;
 	padding-left:10px;
+	img{
+		display: inline-block;
+		vertical-align: middle;
+	}
 	
 }
 /* .heaserright a:first-child{
@@ -152,26 +156,7 @@ header a:hover{
 	float:left;
 	margin-right:37px;
 }
-/* .header_hid .line_1 ul {
-	margin:9px 43px 5px 33px;
-	float:left;
-}
-.line_2 ul{
-	float:left;
-	margin:9px 43px 5px 25px;
-}
-.line_3 ul{
-	float:left;
-	margin:9px 72px 5px 33px;
-}
-.line_4 ul{
-	float:left;
-	margin:9px 43px 5px 33px;
-}
-.line_5 ul{
-	float:left;
-	margin:9px 43px 5px 33px;
-} */
+
 .line_2 .uls1{
 	float:left;
 	margin-right:55px;
@@ -360,6 +345,10 @@ header a:hover{
 }
 .but_right p a{
 	float:left;
+	img{
+		display: inline-block;
+		vertical-align: middle;
+	}
 }
 .but_right a{
 	float:left;

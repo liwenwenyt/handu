@@ -1,0 +1,150 @@
+@charset"utf-8";
+
+body,div,p,ul,dl,ol,dt,dd,li,h1,h2,h3,h4,h5,h6,form,fieldset,table,tr,td,input,textarea,figure{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"微软雅黑";
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	cursor:pointer;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: none;
+	display: block;
+}
+html,body{
+	font-size:26.67vw;
+	height: 100%;
+}
+body{
+	background: #edeef0;
+	display: flex;
+	flex-direction: column;
+
+}
+/* header */
+header{
+	width:100%;
+	height:0.46rem;
+	background:#fd0132;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	p{
+		font-size: 0.16rem;
+		color: white;
+	}
+}
+figure{
+	/* width: 100%; */
+	flex: 1;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+/* section */
+section{
+	width: 3.65rem;
+	height: 0.4rem;
+	display: flex;
+	top: 0.46rem;
+	justify-content: space-between;
+	span{
+		width: 0.72rem;
+		height: 0.4rem;
+		background: white;
+		color: #6a6a6a;
+		font-size: 0.12rem;
+		text-align: center;
+		line-height: 0.4rem;
+	}
+}
+/* 商品列表部分 */
+.list{
+	width: 100%;
+	height: 1.18rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 1px solid #d1d2d4;
+    img{
+    	width: 0.7rem;
+    	height: 0.7rem;
+    	margin-right: 0.12rem;
+    }
+}	
+.list_right{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	p{
+		font-size: 0.14rem;
+		color: #595a5d;
+		margin-top: 5px;
+	}
+}
+.list_right a{
+				font-size: 0.14rem;
+				line-height: 0.25rem;
+				color: #595a5d;
+				display: inline-block;
+				
+              
+	}
+.list_right2{
+	display: flex;
+	justify-content: flex-start;
+	span:nth-child(1){
+			font-size: 0.14rem;
+			color: #ca0f33;
+			margin-right: 0.26rem;
+		}
+	span:nth-child(2){
+			font-size: 0.12rem;
+			color: #a2a3a5;
+		}
+	
+}
+article{
+     width: 100%;
+     height: 0.85rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 0.32rem;
+    
+     span{
+        margin-right: 55px;
+        font-size: 0.14rem;
+         color: #595a5d;
+     }
+     a{
+     	 font-size: 0.14rem;
+         color: #595a5d;
+     }
+}
+footer{
+	width: 100%;
+	height: 0.79rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	p{
+		font-size: 0.12rem;
+		color: #58595b;
+		line-height: 0.21rem;
+		img{
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+}

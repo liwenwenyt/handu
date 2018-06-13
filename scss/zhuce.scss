@@ -145,16 +145,208 @@ section{
 	}
 }
 .left{
-			width: 490px;
+			width: 488px;
 			height: 480px;
 			padding-top: 20px;
+			float: left;
+			border-right: 1px dashed #dddddd;
 		}
 .left_cont{
 				width: 330px;
 				height: 360px;
 				margin:0 80px 140px;
-				.left_cont_top span{
+				.left_cont_top {
+					span{
 					font-size: $basefontsize;
 					color: black;
+				    }
+				    #btn{
+				    	font-size:$basefontsize+4;
+				    	color:white;
+				    	width:103px;
+				    	height:29px;
+				    	background:#b36d32;
+				    	border:1px solid #b56824;
+				    	border-radius:2px;
+				    }
 				}
+				
 			}
+.left_cont_img{
+	margin:20px auto;
+}
+.left_cont_but{
+	width:333px;
+	height:27px;
+	#dingyue{
+		width:250px;
+		height:27px;
+
+	}
+	#btn_dingyue{
+		width:70px;
+		height:22px;
+		background:#c40001;
+		border:1px solid #c40001;
+		border-radius:2px;
+		font-size:$basefontsize;
+		color:white;
+	}
+}
+.sec_right{
+	width:710px;
+	height:515px;
+	float: left;
+	.sec_right_top{
+		width:610px;
+		height:118px;
+		margin:0 50px;
+		border-bottom: 1px dashed #dddddd;
+		p{
+			width: 24px;
+			height: 24px;
+			background: #b00a2a;
+			border-radius: 50%;
+			text-align: center;
+			color: white;
+			float: left;
+			margin-right: 8px;
+		}
+		span{
+			margin-right: 15px;
+			font-size: $basefontsize;
+			color: black;
+		}
+		#btn_phone{
+			width: 135px;
+			height: 36px;
+			background: #b00a2a;
+			border:1px solid #a90024;
+			border-radius: 2px;
+			color: white;
+			margin-right: 10px;
+		}
+		#btn_email{
+			width: 135px;
+			height: 36px;
+			background: #d9d7d7;
+			border:1px solid #cccccc;
+			border-radius: 2px;
+			color: black;
+		}
+	}
+}
+.sec_right_bot{
+	width: 610px;
+	height: 390px;
+	margin:0 50px;
+	input{
+		width: 205px;
+		height: 30px;
+		border: 1px solid #cccccc;
+		border-radius: 4px;
+		background: #f4f4f4
+	}
+	.right_bot_1{
+		margin-top: 32px;
+		p{
+			width: 24px;
+			height: 24px;
+			background: #b00a2a;
+			border-radius: 50%;
+			text-align: center;
+			color: white;
+			float: left;
+			margin-right: 8px;
+			
+		}
+		span{
+			font-size: $basefontsize;
+			color: black;
+
+		}
+	}
+	.right_bot_2{
+		margin-top: 16px;
+		margin-left: 43px;
+		margin-bottom: 20px;
+		span{
+			font-size: $basefontsize;
+			color: #393939;
+			float: left;
+			line-height: 30px;
+		}
+		.phone{
+			float: left;
+            .phone_top{
+            	margin-bottom: 10px;
+            	button{
+            		width: 114px;
+            		height: 24px;
+            		border:1px solid #b4b4b4;
+            		border-radius: 2px;
+            		background: #f4f4f4;
+            		color: #7b7b7b;
+            		font-size: $basefontsize;
+            		line-height: 24px;
+            		text-align: center;
+            		margin-left: 5px;
+            	}
+            }
+            p{
+            	text-align: center;
+            	line-height: 12px;
+            	span{
+            		font-size: $basefontsize;
+            		color: #7b7b7b;
+            		line-height: 12px;
+            		
+            	}
+            	a{
+            		font-size: $basefontsize;
+            		color: #bf003a;
+            		
+            	}
+            }
+		}
+
+	}
+	
+}
+.right_bot_3{
+	margin-left: 69px;
+	span{
+		font-size: $basefontsize;
+			color: #393939;
+			float: left;
+			line-height: 30px;
+	}
+}
+.right_bot_4{
+		margin-top: 10px;
+		margin-left: 80px;
+		span{
+			font-size: $basefontsize;
+			color: #393939;
+			float: left;
+			line-height: 30px;
+		}
+		.submit{
+			float: left;
+			p{
+               font-size: $basefontsize;
+            	color: #7b7b7b;
+            	line-height: 12px;
+			}
+		}
+		
+}
+.right_bot_5{
+	margin-left: 55px;
+	span{
+		font-size: $basefontsize;
+			color: #393939;
+			float: left;
+			line-height: 30px;
+	}
+}
