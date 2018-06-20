@@ -3,11 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" type="text/css" href="css/zhuce.css">
+	<link rel="stylesheet" type="text/css" href="css/denglu.css">
 	<link rel="stylesheet" type="text/css" href="css/public.css">
 	<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
     <script type="text/javascript" src="js/sea.js" ></script>
-    <script type="text/javascript" src="js/zhuce.js" ></script>
+    <script type="text/javascript" src="js/denglu.js" ></script>
 </head>
 <body>
 <!-- header部分开始 -->
@@ -19,9 +19,9 @@
 			</div>
 			<div class="headerright">
 				<p>您好，欢迎光临韩都衣舍！</p>
-				<a href="denglu.html">登录</a>
+				<a href="#">登录</a>
 				<a href="#" class="right">注册</a>
-				<a href="shopping.html">购物车</a>
+				<a href="#">购物车</a>
 				<a href="#">在线客服</a>
 				<a href="#">购物中心</a>
 				<a href="#" class="location"><img src="imgs/img01.jpg">网站导航</a>
@@ -396,117 +396,33 @@
 <section>
 	<div class="sec_cont">
 		<div class="left">
-			<div class="left_cont">
-				<div class="left_cont_top">
-					<span>已是韩都衣舍用户：</span>
-					<a href="#"><input type="button" id="btn" value="直接登录" /></a>
-				</div>
-				<div class="left_cont_img">
-					<img src="imgs/bb.png">
-				</div>
-				<div class="left_cont_but">
-					<input type="text" id="dingyue">
-					<a href="#"><input type="button" id="btn_dingyue" value="马上订阅" /></a>
-				</div>
-			</div>
-		</div>
+			<img src="imgs/410-290.png">
+		</div>	
 		<div class="sec_right">
-			<div class="sec_right_top">
-				<p>1</p>
-				<span>请选择注册方式：</span>
-				<input type="button" id="btn_phone" value="选择手机登录" />
-				<input type="button" id="btn_email" value="选择邮箱登录" />
-               
-			</div>
-			<div class="sec_right_bot">
-				<div class="right_bot_1">
-					<p>2</p>
-				    <span>填写您的信息：</span>
+			<form>
+				<h3>用户登录</h3>
+				<div class="one">
+					<span>用户名：</span><input type="text" value="邮箱地址/手机号">
 				</div>
-				<div class="change1">
-					<div class="right_bot_2">
-						<span>您的手机号：</span>
-						<div class="phone">
-							<div class="phone_top">
-								<input type="text" id="phone"><button >发送验证码</button><span id="checkphone"></span>
-							</div>
-							<p>
-								<span>请输入您在注册时使用的手机号码,若当前号码不用/丢失，或无法收到验证码?</span>
-		                        <a href="#">其他验证方式</a>
-							</p>
-						    
-						</div>
-					</div> 
-					<div class="right_bot_3">
-						<span>验证码：</span>
-	                    <input type="text" id="phone"><span id=""></span>
-					</div>
-					<div class="right_bot_4">
-						<span>密码：</span>
-						<div class="submit">
-							<div class="submit_top">
-								<input type="text" id="phone"><span id=""></span>
-							</div>
-							<p>6到12位字符，可使用字母、数字、字符混合</p>
-						    
-						</div>
-					</div> 
-	                <div class="right_bot_5">
-						<span>确认密码：</span>
-	                    <input type="text" id="phone"><span id=""></span>
-					</div>
-					<div class="right_bot_6">
-						<input type="checkbox" checked="checked">我已看过并接受
-						<a href="#">《用户协议》</a>
-					</div>
-					<div class="right_bot_7">
-						<input type="button" name="" id="btn_zhuce" value="同意协议并注册">
-					</div>
-				</div>	
-				<div class="change2">
-					<div class="right_bot_2">
-						<span>Email：</span>
-						<div class="phone">
-							<div class="phone_top">
-								<input type="text" id="phone"><span id=""></span>
-							</div>
-							<p>
-								<span>Email地址作为用户名，同时也用于接收账户信息、订单通知及密码找回等功能</span>
-		                  
-							</p>
-						    
-						</div>
-					</div> 
-					<div class="right_bot_3">
-						<span>密码：</span>
-	                    <input type="text" id="phone"><span id=""></span>
-					</div>
-					<div class="right_bot_4">
-						<span>确认密码：</span>
-						<div class="submit">
-							<div class="submit_top">
-								<input type="text" id="phone"><span id=""></span>
-							</div>
-							<p>请再次输入密码，两次输入必须一致</p>
-						    
-						</div>
-					</div> 
-	                <div class="right_bot_5">
-						<span>验证码：</span>
-	                    <input type="text" id="phone"><span id=""></span>
-					</div>
-					<div class="right_bot_6">
-						<input type="checkbox" checked="checked">我已看过并接受
-						<a href="#">《用户协议》</a>
-					</div>
-					<div class="right_bot_7">
-						<input type="button" name="" id="btn_zhuce" value="同意协议并注册">
-					</div>
-				</div>	
-			</div>
+				<div class="two">
+					<span>密码：</span><input type="password" name="">
+				</div>
+				<div class="three">
+					<span>验证码：</span><input type="text" name=""><span id="checkma"></span>
+				</div>
+				<div class="four">
+					<button>立即登录</button>
+				    <input id="btn_check" type="checkbox" name="">	<span>保存登录信息</span>	
+				</div>
+				
+			</form>
+
 		</div>
 	</div>
 </section>
+
+
+
 <!--footer -->
 <footer>
 	<div class="foot_cont">
